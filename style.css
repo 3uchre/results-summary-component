@@ -39,7 +39,7 @@ h2 {
 h3 {
     font-size: 1.4rem;
     padding: 2.2rem;
-    margin: 0px;
+    margin: 2% 0 0 0;
     opacity: 60%;
 }
 
@@ -141,6 +141,10 @@ button {
     background-color: hsl(224, 30%, 27%);
 }
 
+button:hover {
+    background-color: hsla(224, 30%, 27%, 95%);
+}
+
 .icon {
     float: left;
     opacity: 70%;
@@ -150,6 +154,7 @@ button {
 footer {
     bottom: 0;
     padding-top: 20px;
+    padding-bottom: 10px;
     text-align: center;
     opacity: 90%;
     margin: 2%;
@@ -165,7 +170,7 @@ footer {
       box-shadow: none;
       position: relative;
       top: -25px;
-      background: white;]
+      background: white;
     }
 
     body, main {
