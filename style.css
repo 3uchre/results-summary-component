@@ -70,7 +70,7 @@ td {
     padding: 15px;
 }
 
-.scores {
+.score {
     color: hsl(224, 30%, 27%);
     float: right;
     .total {
